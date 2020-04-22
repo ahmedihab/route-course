@@ -1,0 +1,28 @@
+.parent {
+    background-color:;
+    overflow: auto;
+}
+.ourbaking{
+    text-align: center; font-family: 'segoe ui light';
+    font-size: 200%;
+}
+.test {
+    background-color: burlywood;
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.img {
+    width: 100%;
+
+}
+.counter {
+    width: 90%;
+    margin: auto;
+
+}
+
+@media(min-width:600px) and (max-width: 1000px){
+    .test {width: 100%;}
+}
